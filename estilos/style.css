@@ -4,3 +4,60 @@
 Vermelho: #910200
 preto: #000002
 */
+
+* {
+    font-family: garamond, sans-serif;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body, html {
+    background-color: #000002;
+    height: 100vh;
+    width: 100vw;
+}
+
+main { 
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+section#login {
+    background-color: white;
+    width: 250px;
+    height: 500px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    
+}
+section#login > div {
+    background: #000002 url(../imagens/batman01.jpg) no-repeat center;
+}
+
+section#login > div#imagen1 {
+    background: #000002 url(../imagens/batman01.jpg) no-repeat center;
+    background-size: cover;
+    height: 200px;
+   
+}
+
+section#login > div#imagen2 {
+    background: #000002 url(../imagens/batman02.jpg) no-repeat center;
+    background-size: cover;
+    height: 200px;
+    
+}
+
+section#login > div#formulario {
+    display: block;
+    padding: 10px;
+}
+
+div#imagen1{display: none;}
+div#imagen2{display: none;}
