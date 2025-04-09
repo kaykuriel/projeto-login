@@ -1,8 +1,8 @@
 @charset "UTF-8";
 
 /* paleta de cores 
-Vermelho: #910200
-preto: #000002
+azul escuro: #0a1020
+/* azul claro: #32496b */
 */
 
 * {
@@ -13,7 +13,7 @@ preto: #000002
 }
 
 body, html {
-    background-color: #000002;
+    background-color: #0a1020;
     height: 100vh;
     width: 100vw;
 }
@@ -36,22 +36,12 @@ section#login {
     border-radius: 20px;
     
 }
-section#login > div {
-    background: #000002 url(../imagens/batman01.jpg) no-repeat center;
-}
-
-section#login > div#imagen1 {
-    background: #000002 url(../imagens/batman01.jpg) no-repeat center;
-    background-size: cover;
-    height: 200px;
+section#login > div#imagem {
+   background: #0a1020 url(../imagens/batman003.jpg) no-repeat center center;
+   background-size: cover;
+   height: 200px;
+   display: block;
    
-}
-
-section#login > div#imagen2 {
-    background: #000002 url(../imagens/batman02.jpg) no-repeat center;
-    background-size: cover;
-    height: 200px;
-    
 }
 
 section#login > div#formulario {
@@ -59,5 +49,4 @@ section#login > div#formulario {
     padding: 10px;
 }
 
-div#imagen1{display: none;}
-div#imagen2{display: none;}
+
