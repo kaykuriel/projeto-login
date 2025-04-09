@@ -25,26 +25,29 @@ main {
 }
 
 section#login {
-    background-color: white;
-    width: 250px;
-    height: 500px;
     position: absolute;
-    overflow: hidden;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    overflow: hidden;
+
+    background-color: white;
+    width: 250px;
+    height: 500px;
     border-radius: 20px;
+
+    transition: width 0.3s, height 0.3s;
+    transition-timing-function: ease;
     
 }
 section#login > div#imagem {
+    display: block;
    background: #0a1020 url(../imagens/batman003.jpg) no-repeat center center;
    background-size: cover;
    height: 200px;
-   display: block;
-   
 }
 
-section#login > div#formulario {
+section#login > div#formulario{
     display: block;
     padding: 10px;
 }

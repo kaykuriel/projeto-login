@@ -10,6 +10,10 @@ Grandes telas: acima de 1200px
  */
 
  @media screen and (min-width: 768px) and (max-width: 992px) {
+
+    body{
+        background-image: linear-gradient(to top, #32496b, #0a1020  );
+    }
     section#login {
         width: 80vw;
  }
@@ -19,18 +23,47 @@ Grandes telas: acima de 1200px
         width: 30%;
         height: 100%;
     }
-
-    section#login > div#formulario {
-        float: right;
-        width: 70%;
+    section#login > div#formulario{
+       float: right;
+       width: calc(70% - 20px); /* adicionei um cálculo para evitar que o formulário ultrapasse a largura do container */
+       padding: 10px;
+        
     }
 }
 
-
-@media screen and (min-width: 992px) and (max-width: 1200px) {
-    
+@media screen and (min-width: 992px) {
+    body{
+        background-image: linear-gradient(to top, #32496b, #0a1020  );
     }
+    section#login {
+        width: 950px;
+    }
+    section#login > div#imagem {
+        float: left;
+        width: 50%;
+        height: 100%;
+    }
+    section#login > div#formulario{
+        float: right;
+        width: calc(70% - 20px); /* adicionei um cálculo para evitar que o formulário ultrapasse a largura do container */
+    }
+}
 
     @media screen and (min-width: 1200px) {
-        
+
+        body{
+            background-image: linear-gradient(to top, #32496b, #0a1020  );
+        }
+    section#login {
+        width: 1200px;
+    }
+    section#login > div#imagem {
+        float: left;
+        width: 50%;
+        height: 100%;
+    }
+    section#login > div#formulario{
+        float: right;
+        width: calc(50% - 20px); /* adicionei um cálculo para evitar que o formulário ultrapasse a largura do container */
+    }
     }
