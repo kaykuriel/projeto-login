@@ -13,6 +13,8 @@ Grandes telas: acima de 1200px
 
     body{
         background-image: linear-gradient(to top, #32496b, #0a1020  );
+        height: 100vh;
+        width: 100vw;
     }
     section#login {
         width: 80vw;
@@ -37,6 +39,8 @@ Grandes telas: acima de 1200px
 @media screen and (min-width: 992px) {
     body{
         background-image: linear-gradient(to top, #32496b, #0a1020  );
+        height: 100vh;
+        width: 100vw;
     }
     section#login {
         width: 950px;
@@ -60,6 +64,8 @@ Grandes telas: acima de 1200px
 
         body{
             background-image: linear-gradient(to top, #32496b, #0a1020  );
+            height: 100vh;
+            width: 100vw;
         }
     section#login {
         width: 1200px;
