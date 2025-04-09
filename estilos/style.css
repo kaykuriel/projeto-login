@@ -28,14 +28,15 @@ section#login {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    
     overflow: hidden;
 
     background-color: white;
     width: 300px;
     height: 500px;
     border-radius: 20px;
-
+    
+    transform: translate(-50%, -50%);
     transition: width 0.3s, height 0.3s;
     transition-timing-function: ease;
     
@@ -62,4 +63,27 @@ div#formulario > p {
    font-size: 0.8em;
 }
 
+form > div.campo {
+  
+    margin: 5px 0px;
+}
+
+form > input[type="submit"]{
+
+    display: block;
+    font-size: 1em;
+    padding-top: 5px;
+    margin-top: 5px;
+    background-color: #0a1020;
+    color: white;
+    border: 1px solid #0a1020;
+    border-radius: 5px;
+    text-decoration: none;
+}
+form > input[type="submit"]:hover {
+    background-color: #122a48;
+    color: white;
+    border: 1px solid #121c2c;
+    cursor: pointer;
+}
 
